@@ -5,7 +5,7 @@ var config = {
    username: 'naveenkattamuri',
    password: 'rajini@143', // Either your password or an authentication token if two-factor authentication is enabled
    auth: 'basic',
-   repository: 'upload-files-github.js',
+   repository: 'LoadLetter',
    branchName: 'master'
 };
 var gitHub = new GitHub(config);
