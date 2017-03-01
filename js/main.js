@@ -2,10 +2,10 @@
 
 var GitHub = require('./github');
 var config = {
-   username: 'YOUR_USERNAME',
-   password: 'YOUR_PASSWORD', // Either your password or an authentication token if two-factor authentication is enabled
+   username: 'naveenkattamuri',
+   password: 'rajini@143', // Either your password or an authentication token if two-factor authentication is enabled
    auth: 'basic',
-   repository: 'A_REPOSITORY_NAME',
+   repository: 'upload-files-github.js',
    branchName: 'master'
 };
 var gitHub = new GitHub(config);
